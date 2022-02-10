@@ -81,6 +81,7 @@ namespace For_Quipu_GmbH.Pages
         private void btn_Run_Click(object sender, RoutedEventArgs e)
         {
             canceled = false;
+            btn_Run.IsEnabled = false;
             countall_a = 0;
             progressBar.Value = 0;
             result.Text = "";
